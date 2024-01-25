@@ -93,7 +93,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
         // Direct actions to share
         $.each(SITES, function(sideId, site) {
-            if (!opts[sideId]) return;
+            // if (!opts[sideId]) return;
 
             var onClick = site.onClick;
             
