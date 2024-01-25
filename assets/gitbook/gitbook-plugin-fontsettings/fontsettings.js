@@ -235,8 +235,8 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
     // Expose API
     gitbook.fontsettings = {
-        enlargeFontSize: enlargeFontSize,
-        reduceFontSize:  reduceFontSize,
+        // enlargeFontSize: enlargeFontSize,
+        // reduceFontSize:  reduceFontSize,
         setTheme:        changeColorTheme,
         setFamily:       changeFontFamily,
         getThemes:       getThemes,
